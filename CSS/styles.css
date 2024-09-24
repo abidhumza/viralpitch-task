@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.scene {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.base {
+    position: absolute;
+    width: 70%;
+    height: auto;
+    top: 10%;
+}
+
+.model {
+    position: absolute;
+    width: 14%;
+    height: auto;
+    top: 7%;
+    left: 42%;
+    z-index: 1;
+}
+
+.prod {
+    position: absolute;
+}
+
+.prod1 {
+    width: 6%;
+    height: auto;
+    top: 39%;
+    left: 64%;
+}
+
+.prod2 {
+    width: 6%;
+    height: auto;
+    top: 25%;
+    left: 64%;
+}
+
+/* Prop positioning */
+.prop {
+    position: absolute;
+    width: 5%;
+}
+
+.propcollection {
+    top: 19%;
+    left: 35%;
+    width: 10%;
+}
+
+.propblocks {
+    width: 10%;
+    top: 54%;
+    left: 64%;
+}
+
+.propgift {
+    top: 60%;
+    width: 7%;
+    left: 38%;
+    z-index: 1;
+}
+
+.prophashtag {
+    top: 60%;
+    left: 73%;
+}
+
+.propheart {
+    width: 6%;
+    top: 64%;
+    left: 32%;
+    z-index: 2;
+}
+
+.propmoney {
+    width: 12%;
+    top: 57%;
+    left: 24%;
+    z-index: 1;
+}
+
+.propplaybutton {
+    top: 60%;
+    width: 11%;
+    left: 56%;
+}
+
+.propwithdraw {
+    top: 44%;
+    left: 30%;
+    width: 13%;
+}
+
+.propspebble {
+    z-index: 2;
+    width: 8%;
+    top: 27%;
+    left: 55%;
+}
+
+.social-icon {
+    position: absolute;
+    width: 4%;
+    height: auto;
+}
